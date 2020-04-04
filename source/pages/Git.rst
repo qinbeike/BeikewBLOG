@@ -14,7 +14,13 @@
 
 #. 通过 **git push -u origin master**将本地仓库项目提交至远程仓库
 
-#. 注： origin是远程仓库的别名，master为仓库的主干分支
+#. 注： origin是远程仓库的别名，master为仓库的主干分支::
+
+    # git init
+    # git add .
+    # git commit -m "first commit"
+    # git push orinin master
+
 
 
 1.2 分支操作
