@@ -16,7 +16,7 @@
 
 #. 注： origin是远程仓库的别名，master为仓库的主干分支::
 
-    # git init
+    git init
     # git add .
     # git commit -m "first commit"
     # git push orinin master
