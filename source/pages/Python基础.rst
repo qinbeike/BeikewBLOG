@@ -32,11 +32,37 @@ python中常用的进制包括b:二进制、o:八进制、d:十进制、x:十六
 
 其它常用函数::
 
-    round(x,n):返回浮点数x的四舍五入值，小数点保留n位
+    round(x,n):返回浮点数x的四舍五入值，小数点保留n位，需要注意的是python中4.5是4.4999999，round时结果为4
     divmod(x,y):返回商和余数的元组
     power(x,n):返回x的n次方
+
+
 
 1.2 字符串
 =============
 
 python中没有字符类型，只有字符串，可以用单引号、双引号
+字符串常用方法：
+len()
+str()
+s.lower()
+char.join(sequence):将要连接的元素序列用字符char连接起来，常用的有''.join(sequence)
+str.strip():用于移除字符串头尾指定的字符，默认为空格
+ord(c):返回字符串的ASCII值，c为字符串
+
+1.3 字典
+================
+
+字典是由键和值组成的
+
+字典的常用方法：
+dictname.setdefault(key, defaultvalue):key不存在时设置的默认键值
+dict.keys(): 以列表形式返回字典的所有键
+dict.items():返回可迭代的(key,value)的元组
+
+
+
+第一章 常用内置函数及语法糖
+***********************
+
+lambda x,y:x+y (1,1)
